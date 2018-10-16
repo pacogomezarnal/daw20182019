@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Actividad 2</title>
+  </head>
+  <body>
+
+    <script type="text/javascript">
+    var nombre = "\n Nombre: " + prompt("Introduzca su nombre");
+    var apellidos = "\n Apellidos: " + prompt("Introduzca sus apellidos");
+    var edadNum = Number(prompt("Introduzca su edad"));
+    var edadStr = "\n Edad: " + edadNum;
+    var alturaNum = Number(prompt("Introduzca su altura (en metros)"));
+    var alturaStr = "\n Altura: " + alturaNum;
+    var pesoNum = Number(prompt("Introduzca su peso (en kilogramos)"))
+    var pesoStr = "\n Peso: " + pesoNum;
+    var poblacionciudad = "\n Poblacion: " + prompt("Introduzca su población y ciudad");
+    var numerotelefono = "\n Numero: " + prompt("Introduzca su número de telefono");
+    var imcNum = pesoNum/(alturaNum*alturaNum);
+    var imcStr = "\n IMC: " + imcNum;
+    alert(nombre + apellidos + edadStr + alturaStr + pesoStr + imcStr + poblacionciudad + numerotelefono);
+    </script>
+
+  </body>
+</html>
