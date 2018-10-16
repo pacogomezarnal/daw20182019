@@ -3,6 +3,11 @@ function notaFinal(nota1,nota2,nota3){
   notaFinal=(nota1+nota2+nota3)/3;
   return notaFinal;
 }
+
+function calculoBeneficio(compra,venta){
+  return venta-compra;
+}
+
 //Usando la funcion
 var calificacion=0;
 calificacion=notaFinal(8,9,10);
