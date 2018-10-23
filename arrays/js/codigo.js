@@ -8,3 +8,7 @@ var pseudorestaurantes2="burguerking";
 var pseudorestaurantes3="tgb";
 //Muestro por pantalla
 console.log(edadAlumnos);
+//RETO 1
+var diasSemana=["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
+var numsSemana=Array(1,2,3,4,5,6,7);
+console.log(diasSemana);
