@@ -1,3 +1,5 @@
+//Codigo ejemplo sobre funciones
+
 function notaFinal(nota1,nota2,nota3){
   let notaFinal=0; //Inicializando una variable
   notaFinal=(nota1+nota2+nota3)/3;
