@@ -19,3 +19,12 @@ console.log(mixto);
 var diaDomingo=diasSemana[diasSemana.length-1];
 console.log(diaDomingo);
 console.log(diasSemana[diasSemana.length-2]);
+//ARRAY DINAMICO
+var posicionTablaValenciaLiga=[];
+posicionTablaValenciaLiga.push(3);
+posicionTablaValenciaLiga.push(12);
+console.log(posicionTablaValenciaLiga.length);
+posicionTablaValenciaLiga.push(7);
+posicionTablaValenciaLiga.push(9);
+console.log(posicionTablaValenciaLiga.length);
+console.log(posicionTablaValenciaLiga)
