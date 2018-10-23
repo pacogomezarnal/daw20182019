@@ -12,3 +12,10 @@ console.log(edadAlumnos);
 var diasSemana=["lunes","martes","miercoles","jueves","viernes","sabado","domingo"];
 var numsSemana=Array(1,2,3,4,5,6,7);
 console.log(diasSemana);
+//EJEMPLO DE ALMACENAJE MIXTO
+var mixto=["lunes",1,"martes",2,"miercoles",3,true];
+console.log(mixto);
+//MOSTRAR SOLO EL FIN DE SEMANA
+var diaDomingo=diasSemana[diasSemana.length-1];
+console.log(diaDomingo);
+console.log(diasSemana[diasSemana.length-2]);
