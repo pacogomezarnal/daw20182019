@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>La tabla de multiplicar</h1>
+    <script type="text/javascript">
+      document.write("<table>");
+      for (let i = 0; i <= 10; i++) {
+        document.write("<tr>");
+        //ES LO MISMO
+        //document.write("<td>5x"+i+"=</td><td>"+resultado+"</td>");
+        //ES LO MISMO
+        //document.write("<td>5x");
+        //document.write(i);
+        //document.write("=</td>");...
+        let resultado=i*5;
+        document.write(`<td>5x${i}=</td><td>${resultado}</td>`);
+        console.log(`5x${i}=${resultado}`);
+        document.write("</tr>");
+      }
+      document.write("</table>");
+    </script>
+  </body>
+</html>
